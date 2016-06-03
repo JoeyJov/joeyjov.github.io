@@ -1,64 +1,84 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Joey | Portfolio</title>
-	<!-- angular -->
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
-	<!-- font awesome -->
-	<script src="https://use.fontawesome.com/37f57d1eea.js"></script>
-	<!-- materialize -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
-	<!-- google fonts -->
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<!-- animate -->
-	<link rel="stylesheet" type="text/css" href="css/animate.css">
-	<!-- personal -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
-	<!-- navbar start -->
-	<nav>
-    	<div class="nav-wrapper container">
-     		<a href="#" class="brand-logo animated fadeInDown wow" data-wow-delay=".1s">Joey's Portfolio</a>
-      			<ul id="nav-mobile" class="right hide-on-med-and-down">
-        			<li class="waves-effect waves-blue animated fadeInDown wow" data-wow-delay=".3s"><a href="#home"><i class="fa fa-home fa-fw" aria-hidden="true"></i> Home</a></li>
-        			<li class="waves-effect waves-blue animated fadeInDown wow" data-wow-delay=".4s"><a href="#about-me"><i class="fa fa-info-circle fa-fw" aria-hidden="true"></i> About Me</a></li>
-        			<li class="waves-effect waves-blue animated fadeInDown wow" data-wow-delay=".5s"><a href="#projects"><i class="fa fa-file fa-fw" aria-hidden="true"></i> Projects</a></li>
-        			<li class="waves-effect waves-blue animated fadeInDown wow" data-wow-delay=".6s"><a href="#skills"><i class="fa fa-briefcase fa-fw" area-hidden="true"></i> Skills</a></li>
-        			<li class="waves-effect waves-blue animate fadeInDown wow" data-wow-delay=".7s"><a href="#social"><i class="fa fa-globe fa-fw" aria-hidden="true"></i> Social</a></li>
-      			</ul> 
-    	</div>
-  	</nav>
-	<!-- navbar end -->
-	<!-- main area start -->
-	<main>
-		<img src="img/computer-half-closed.jpg" width="100%">
-		<div class="section white">
-			<div class="row container">
-				<h2 id="about-me" class="header scrollspy">About Me <i class="fa fa-info-circle" aria-hidden="true"></i></h2>
-				<p id="paragraph-education">
-					<i class="fa fa-graduation-cap fa-2x fa-fw" aria-hidden="true"></i> A senior attending SBHS, taking classes over the past few years to help improve my coding skills. I also have spent some time on codecademy, taking some courses on their site. While looking into the future and focusing on my career at college. With everything set except for me being in the classroom already.
-				</p>
-				<p id="paragraph-hobbies">
-					<i class="fa fa-heart fa-2x fa-fw" aria hiddent="true"></i> While not attending class or not at work, I like to fill my time with sports or video games. My childhood was filled with all sports but mainly soccer and baseball. Since I've grown up, I started to become fond of video games. With some of my favorites being Call of Duty, FIFA, and Counter Stike. 
-				</p>
-				<p id="paragraph-coding">
-					<i class="fa fa-code fa-2x fa-fw" aria-hidden="true"></i> Over the multiple courses I've taken at SBHS, I learned HTML5, CSS3, JavaScript, and jQuery. I have also learned Materialize, Bootstrap, Angular, and Git. On Codecademy I have also spent time on jQuery and now I'm completing the JavaScript course. I have accounts on Github and Stack Overflow.
-				</p>
-				<p id="paragraph-vacation">
-					<i class="fa fa-fighter-jet fa-2x fa-fw" aria-hidden="true"></i> During my childhood I went on multiple vacations, most of them now a blur but one stuck one with me and its vividly clear to me. I went to Wildwood with friends. It was awesome because friends were there with me, it taught me the importance of friendship and how it can really impact anything. 
-				</p>
+	<head>
+		<title>Joey | Portfolio</title>
+		<!-- angular -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+		<!-- font awesome -->
+		<script src="https://use.fontawesome.com/37f57d1eea.js"></script>
+		<!-- materialize -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+		<!-- google fonts -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- animate -->
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<!-- personal -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<!-- navbar start -->
+		<nav>
+	    	<div class="nav-wrapper container">
+	     		<a href="#" class="brand-logo animated fadeInDown wow" data-wow-delay=".1s">Joey's Portfolio</a>
+	      			<ul id="nav-mobile" class="right hide-on-med-and-down">
+	        			<li class="waves-effect waves-blue animated fadeInDown wow" data-wow-delay=".3s"><a href="#home"><i class="fa fa-home fa-fw" aria-hidden="true"></i> Home</a></li>
+	        			<li class="waves-effect waves-blue animated fadeInDown wow" data-wow-delay=".4s"><a href="#about-me"><i class="fa fa-info-circle fa-fw" aria-hidden="true"></i> About Me</a></li>
+	        			<li class="waves-effect waves-blue animated fadeInDown wow" data-wow-delay=".5s"><a href="#projects"><i class="fa fa-file fa-fw" aria-hidden="true"></i> Projects</a></li>
+	        			<li class="waves-effect waves-blue animated fadeInDown wow" data-wow-delay=".6s"><a href="#skills"><i class="fa fa-briefcase fa-fw" area-hidden="true"></i> Skills</a></li>
+	        			<li class="waves-effect waves-blue animate fadeInDown wow" data-wow-delay=".7s"><a href="#social"><i class="fa fa-globe fa-fw" aria-hidden="true"></i> Social</a></li>
+	      			</ul> 
+	    	</div>
+	  	</nav>
+		<!-- navbar end -->
+		<!-- main area start -->
+		<main>
+		<!-- start about me -->
+			<img src="img/computer-half-closed.jpg" width="100%">
+			<div class="section white">
+				<div class="row container">
+					<h2 id="about-me" class="header scrollspy">About Me <i class="fa fa-info-circle" aria-hidden="true"></i></h2>
+					<p id="paragraph-education">
+						<i class="fa fa-graduation-cap fa-2x fa-fw" aria-hidden="true"></i> A senior attending SBHS, taking classes over the past few years to help improve my coding skills. I also have spent some time on codecademy, taking some courses on their site. While looking into the future and focusing on my career at college. With everything set except for me being in the classroom already.
+					</p>
+					<p id="paragraph-hobbies">
+						<i class="fa fa-heart fa-2x fa-fw" aria hiddent="true"></i> While not attending class or not at work, I like to fill my time with sports or video games. My childhood was filled with all sports but mainly soccer and baseball. Since I've grown up, I started to become fond of video games. With some of my favorites being Call of Duty, FIFA, and Counter Stike. 
+					</p>
+					<p id="paragraph-coding">
+						<i class="fa fa-code fa-2x fa-fw" aria-hidden="true"></i> Over the multiple courses I've taken at SBHS, I learned HTML5, CSS3, JavaScript, and jQuery. I have also learned Materialize, Bootstrap, Angular, and Git. On Codecademy I have also spent time on jQuery and now I'm completing the JavaScript course. I have accounts on Github and Stack Overflow.
+					</p>
+					<p id="paragraph-vacation">
+						<i class="fa fa-fighter-jet fa-2x fa-fw" aria-hidden="true"></i> During my childhood I went on multiple vacations, most of them now a blur but one stuck one with me and its vividly clear to me. I went to Wildwood with friends. It was awesome because friends were there with me, it taught me the importance of friendship and how it can really impact anything. 
+					</p>
+				</div>
 			</div>
-		</div>
-	</main>
-	<!-- main area end -->
-	<!-- jquery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<!-- materialize js-->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-	<!-- wow -->
-	<script type="text/javascript" src="js/wow.js"></script>
-	<!-- personal -->
-	<script type="text/javascript" src="js/script.js"></script>
-</body>
+		<!-- end about me -->
+		<!-- start projects -->
+			<img src="img/projects.jpg" width="100%">
+			<div class="section white">
+				<div class="row container">
+					<h2 id="projects" class="header scrollspy">Projects <i class="fa fa-file fa-fw" aria-hidden="true"></i></h2>
+					<div class="col s12 m3">
+  						<div class="card animated bounceInLeft wow" data-wow-delay=".5s">
+							<div class="card-image">
+								<img src="">
+								<span class="card-title"></span>
+							</div>
+							<div class="card-content">
+								<p></p>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</main>
+		<!-- main area end -->
+		<!-- jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<!-- materialize js-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+		<!-- wow -->
+		<script type="text/javascript" src="js/wow.js"></script>
+		<!-- personal -->
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
 </html>
