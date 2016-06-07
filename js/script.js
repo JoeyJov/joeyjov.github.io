@@ -5,3 +5,9 @@ $(document).ready(function() {
 	/* scrollspy */
 	$('.scrollspy').scrollSpy();
 })
+
+$('.animate-on-mousehover').on('mouseenter', function(){
+	$(this).toggleClass("animated pulse");
+}).on("mouseleave", function() {
+	$(this).toggleClass("animated pulse");
+});
