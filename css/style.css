@@ -1,0 +1,27 @@
+nav {
+	background-color: black;
+}
+
+footer {
+	background-color: black
+}
+
+#paragraph-education {
+	font-size: 18pt;
+}
+
+#paragraph-hobbies {
+	font-size: 18pt;
+}
+
+#paragraph-coding {
+	font-size: 18pt;
+}
+
+#paragraph-vacation {
+	font-size: 18pt;
+}
+
+#footer-link li{
+	font-size: 16px;
+}
