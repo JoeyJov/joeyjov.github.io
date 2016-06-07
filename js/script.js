@@ -6,8 +6,9 @@ $(document).ready(function() {
 	$('.scrollspy').scrollSpy();
 })
 
+/* pulse action on skills */
 $('.animate-on-mousehover').on('mouseenter', function(){
 	$(this).toggleClass("animated pulse");
-}).on("mouseleave", function() {
+}).on("mouseleave", function() { /* reactivate pulse action */
 	$(this).toggleClass("animated pulse");
 });

@@ -1,27 +1,29 @@
-nav {
+/* changing nav-bar color from default pink to black */
+nav { 
 	background-color: black;
 }
 
-footer {
-	background-color: black
-}
-
+/* changing default font in about me- education paragraph to 18 pt */
 #paragraph-education {
 	font-size: 18pt;
 }
 
+/* changing default font in about me- hobbies paragraph to 18 pt */
 #paragraph-hobbies {
 	font-size: 18pt;
 }
 
+/* changing default font in about me- coding paragraph to 18 pt */
 #paragraph-coding {
 	font-size: 18pt;
 }
 
+/* changing default font in about me- vacation paragraph to 18 pt */
 #paragraph-vacation {
 	font-size: 18pt;
 }
 
+/* changing footer link font size from default to 16px */
 #footer-link li{
 	font-size: 16px;
 }
