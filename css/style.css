@@ -3,11 +3,6 @@ nav {
 	background-color: black;
 }
 
-/* failed adjustment of footer color */
-footer {
-	background-color: black
-}
-
 /* changing default font in about me- education paragraph to 18 pt */
 #paragraph-education {
 	font-size: 18pt;
